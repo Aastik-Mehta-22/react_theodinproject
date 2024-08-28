@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* .card {
+  padding: 2em;
+  border: 2px dotted white;
+  cursor: pointer;
+} */
+.card {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #477eff; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  cursor: pointer; /* Change cursor on hover */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.heading{
+  color: rgb(93, 139, 255)
+}
+#score{
+  color: rgb(93, 139, 255);
+  padding: 4px;
+  font-size: 2rem;
+}
+
+label{
+  color: white;
+  font-size: 2rem;
+}
+
+button {
+  background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color:   
+ #222; /* Darken on hover */
+}
+.gameOver{
+  color: red;
+}
+
+#scr{
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(109, 255, 52);
+  font-size: 30px;
+}
+
+.heading {
+  color: rgb(1, 0, 0); /* Dark gray for headings */
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.heading2 {
+  color: rgb(255, 255, 255); /* Dark gray for headings */
+
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif; /* Set a default font for the entire body */
+  margin: 0;
+  padding: 0;
+  background-color: #000000; 
+
+    background-size: cover;
+    background-position: center;
+  
+  
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
